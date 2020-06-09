@@ -24,6 +24,17 @@ namespace Aula13Uber
             }else{
                 Console.WriteLine("Usuario deslogado");
             }
+
+            Passageiro pas = new Passageiro();
+            System.Console.WriteLine(pas.solicitarMotorista()); 
+            System.Console.WriteLine(pas.Pagamento("finalizado")); 
+
+
+            Pagamento pagamento = new Pagamento();
+            System.Console.WriteLine(pagamento.pagamento()); 
+            
+
+
         }
     }
 }

@@ -1,10 +1,10 @@
 namespace Aula13Uber
 {
-    public class Corrida
+    public class Corrida : Usuario
     {
         private string localInicio;
         private string destino;
-        private string statusCorrida ;
+        private string statusCorrida = "finalizado" ;
         private string passageiro;
         private string motorista;
 
